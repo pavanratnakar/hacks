@@ -1,0 +1,138 @@
+{
+    "timeline":
+    {
+        "headline":"Steve Jobs Timeline",
+        "type":"default",
+        "startDate":"1970,1",
+        "text":"<i><a href=\"http://www.pavanratnakar.com\" target=\"_blank\">Pavan Ratnakar</a></i>",
+        "asset":
+        {
+            "media":"",
+            "credit":"",
+            "caption":""
+        },
+        "date": [
+            {
+                "startDate":"1975,1",
+                "headline":"Remembering Steve Jobs - 1955 to 2011",
+                "text":"",
+                "asset":
+                {
+                    "media":" http://www.youtube.com/watch?v=t22IgMTbuO8",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1977,2",
+                "headline":"Steve Jobs introduces the new Apple II",
+                "text":"Photo shows Apple co-founder Steve Jobs as he introduces the new Apple II in Cupertino, Calif",
+                "asset":
+                {
+                    "media":"http://l2.yimg.com/bt/api/res/1.2/lAe4DavzasL44Ln1.aqZWg--/YXBwaWQ9eW5ld3M7Zmk9Zml0O2g9MTM1NztxPTg1O3c9OTUw/http://media.zenfs.com/en_us/News/ap_webfeeds/f9d0b23363bebf16fa0e6a7067009d84.jpg",
+                    "credit":"(AP Photo/Apple Computers Inc., File)",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1984,1",
+                "headline":"Steve Jobs unveils the new Apple IIc ",
+                "text":"From left, Steve Jobs, chairman of Apple Computers, John Sculley, president and CEO, and Steve Wozniak, co-founder of Apple, unveil the new Apple IIc computer in San Francisco..",
+                "asset":
+                {
+                    "media":"http://l1.yimg.com/bt/api/res/1.2/bvEAqMwbaIpQidmYzKejLA--/YXBwaWQ9eW5ld3M7Zmk9Zml0O2g9NjI1O3E9ODU7dz05NTA-/http://media.zenfs.com/en_us/News/ap_webfeeds/208da1bb63bbbf16fa0e6a706700e0aa.jpg",
+                    "credit":"AP Photo/Sal Veder, File",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1984,2",
+                "headline":"Steve Jobs leans on the new \"Macintosh\" personal computer",
+                "text":"Steve Jobs, chairman of the board of Apple Computer, leans on the new \"Macintosh\" personal computer following a shareholder's meeting in Cupertino, Calif. ",
+                "asset":
+                {
+                    "media":"http://l3.yimg.com/bt/api/res/1.2/pizMafXkM3vOZ9I_Xfwgng--/YXBwaWQ9eW5ld3M7Zmk9Zml0O2g9MTMyNjtxPTg1O3c9ODU5/http://media.zenfs.com/en_us/News/ap_webfeeds/55ae7d8063bebf16fa0e6a706700d13d.jpg",
+                    "credit":"AP Photo/Paul Sakuma, File",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1990,1",
+                "headline":"Steve Jobs shows off his company's new NeXTstation",
+                "text":"Steve Jobs, president and CEO of NeXT Computer Inc., shows off his company's new NeXTstation after an introduction to the public in San Francisco.",
+                "asset":
+                {
+                    "media":"http://l2.yimg.com/bt/api/res/1.2/nv2KXXqur.Upjb_I9rYMkA--/YXBwaWQ9eW5ld3M7Zmk9Zml0O2g9MTMwNDtxPTg1O3c9ODQ1/http://media.zenfs.com/en_us/News/ap_webfeeds/803f8e7663bdbf16fa0e6a706700304d.jpg",
+                    "credit":"AP Photo/Eric Risberg, File",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1997,1",
+                "headline":"Steve Jobs speaks at the MacWorld trade show",
+                "text":"Steve Jobs, chief executive of Pixar, speaks at the MacWorld trade show in San Francisco",
+                "asset":
+                {
+                    "media":"http://l2.yimg.com/bt/api/res/1.2/nCPBc0hZP30KchL.VJ6Cfg--/YXBwaWQ9eW5ld3M7Zmk9Zml0O2g9NzA3O3E9ODU7dz05NTA-/http://media.zenfs.com/en_us/News/ap_webfeeds/7952d41c7345c016fa0e6a706700c980.jpg",
+                    "credit":"AP Photo/Eric Risberg, File",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1998,1",
+                "headline":"Steve Jobs unveils the the new iMac computer",
+                "text":"Steve Jobs of Apple Computers unveils the the new iMac computer in Cupertino, Calif.",
+                "asset":
+                {
+                    "media":"http://l1.yimg.com/bt/api/res/1.2/xmq2uCnkJTspND4OrLJfsg--/YXBwaWQ9eW5ld3M7Zmk9Zml0O2g9MTI4NTtxPTg1O3c9OTUw/http://media.zenfs.com/en_us/News/ap_webfeeds/6ff351ff63bdbf16fa0e6a70670083a4.jpg",
+                    "credit":"AP Photo/Paul Sakuma, File",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2004,1",
+                "headline":"Steve Jobs displays the iPod mini",
+                "text":"Apple CEO Steve Jobs displays the iPod mini at the Macworld Conference and Expo in San Francisco. Jobs, the Apple founder and former CEO who invented and masterfully marketed ever-sleeker gadgets that transformed everyday technology, from the personal computer to the iPod and iPhone, died Wednesday. He was 56.",
+                "asset":
+                {
+                    "media":"http://l.yimg.com/bt/api/res/1.2/uUgKA17wPl33vseX6CLAqQ--/YXBwaWQ9eW5ld3M7Zmk9Zml0O2g9NjY0O3E9ODU7dz05NTA-/http://media.zenfs.com/en_us/News/ap_webfeeds/55e83c0273c7c216fa0e6a706700af70.jpg",
+                    "credit":"AP Photo/Marcio Jose Sanchez, File",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2007,1",
+                "headline":"Steve Jobs holds up an Apple iPhone",
+                "text":"Steve Jobs holds up an Apple iPhone at the MacWorld Conference in San Francisco. Jobs the CEO, Jobs the technologist and futurist, Jobs the inventor and innovator and refiner of others' ideas: All of them, in the end, relied upon another Steve Jobs who sewed the others together and bottled their lightning: Steve Jobs the storyteller, spinning the tale of our age and of his own success, and making it happen as he went.",
+                "asset":
+                {
+                    "media":"http://l.yimg.com/bt/api/res/1.2/4GN8KHnfUWFkN2yaU4_QyQ--/YXBwaWQ9eW5ld3M7Zmk9Zml0O2g9NzM2O3E9ODU7dz05NTA-/http://media.zenfs.com/en_us/News/ap_webfeeds/9a36c0ed73b9c216fa0e6a70670016d9.jpg",
+                    "credit":"AP Photo/Paul Sakuma, File",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2008,1",
+                "headline":"Apple CEO Steve Jobs holds up the new MacBook Air",
+                "text":"Apple CEO Steve Jobs holds up the new MacBook Air after giving the keynote address at the Apple MacWorld Conference in San Francisco",
+                "asset":
+                {
+                    "media":"http://l.yimg.com/bt/api/res/1.2/4gBwuQWsPfV_om1p6vAYEw--/YXBwaWQ9eW5ld3M7Zmk9Zml0O2g9NjQ5O3E9ODU7dz05NTA-/http://media.zenfs.com/en_us/News/ap_webfeeds/91c84b7c7342c016fa0e6a7067000e2a.jpg",
+                    "credit":"AP Photo/Jeff Chiu, File",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2011,10",
+                "headline":"Steve Jobs Memorial (RIP)",
+                "text":"",
+                "asset":
+                {
+                    "media":" http://www.youtube.com/watch?v=S4HEOVQ4RRs",
+                    "credit":"",
+                    "caption":""
+                }
+            }
+        ]
+    }
+}

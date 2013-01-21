@@ -1,0 +1,87 @@
+html,body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: none repeat scroll 0 0 #222222;
+}
+body {
+    color: #666666;
+    font-family: "Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}
+h1 {
+    text-align:center;
+    color: #DDDDDD;
+    font-size: 2.2em;
+    font-weight: normal;
+    padding: 10px 0;
+    text-shadow: 0 0 2px #FFFFFF;
+}
+h2 {
+    margin:0;
+    text-align:center;
+    color: #DDDDDD;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-shadow: 0 0 2px #FFFFFF;
+    background:#111;
+    padding:10px;border: 1px solid #444444;color: #DDDDDD;
+	-moz-box-shadow: 1px 1px 4px #000000;
+	-webkit-box-shadow: 1px 1px 4px #000000;
+    box-shadow: 1px 1px 4px #000000;
+}
+a {
+    color:#fff;
+}
+#wrapper{
+	width:900px;
+	margin:0 auto;
+}
+.flashContainer{
+    float:left;
+    display:inline;
+    margin:10px;
+}
+.video-container{
+    margin:10px 0 10px;
+    background:#333;
+    border: 1px solid #444444;
+    padding: 10px;
+    text-align:center;
+    width:100%;
+    -moz-box-shadow: 1px 1px 4px #000000;
+    -webkit-box-shadow:1px 1px 4px #000000;
+    box-shadow:1px 1px 4px #000000;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+.fb-comments{
+    margin:20px 0 0 0;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+    padding: 20px 10px 10px 10px;
+    text-align:center;
+    width:100%;
+    -moz-box-shadow: 1px 1px 4px #000000;
+    -webkit-box-shadow:1px 1px 4px #000000;
+    box-shadow:1px 1px 4px #000000;
+}

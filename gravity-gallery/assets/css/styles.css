@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    background:url('../img/bg.png') #070707;
+    position:relative;
+}
+body{
+    font:14px/1.3 'Segoe UI',Arial, sans-serif;
+    height:100%;
+    overflow:hidden;
+}
+a, a:visited {
+    text-decoration:none;
+    outline:none;
+    color:#54a6de;
+}
+a:hover{
+    text-decoration:underline;
+}
+section, footer, nav{
+    display: block;
+}
+h1{
+    text-align:center;
+    color: #DDDDDD;
+    font-size: 2.2em;
+    font-weight: normal;
+    padding: 60px 0 20px;
+    text-shadow: 0 0 2px #FFFFFF;
+}
+#gallery{
+    overflow: hidden;
+    margin: 0 auto;
+}
+#gallery li{
+    list-style: none;
+    float: left;
+    margin: 5px;
+    width:160px;
+    height:160px;
+}
+#gallery a{
+    display:block;
+    background-color:#fff;
+    padding:3px;
+    box-shadow:0 2px #7a7a7a;
+}
+#gallery a img{
+    display:block;
+}
+#gravityButton{
+    text-align:center;
+    margin:20px auto;
+    display:block;
+    width:100px;
+}
+.notication{
+    position:absolute;
+    width:100%;
+    background:#FFFFE0;
+    font-size:13px;
+    color:#707037;
+    text-align:center;
+    padding:10px;
+}
+/* This class is automatically added to the photos when the physics simulation starts */
+.box2d a{
+    /*box-shadow:none !important;*/
+    cursor:move;
+}

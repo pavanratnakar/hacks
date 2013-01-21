@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="Pavan Ratnakar, Pavan Ratnkar Applications, Flickr, Gravity, Gallery" />
+        <meta name="description" content="Flickr Gravity Gallery : Entirely for fun – a “gravity” gallery. This script runs a search on Flickr, fetches and displays the photos in a grid, and then uses the Box2D library to simulate physical interactions between them" />
+        <meta name="author" content="Pavan Ratnakar" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta property="og:title" content="Flickr Gravity Gallery - Hack by Pavan Ratnakar" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Flickr Gravity Gallery : Entirely for fun – a “gravity” gallery. This script runs a search on Flickr, fetches and displays the photos in a grid, and then uses the Box2D library to simulate physical interactions between them " />
+        <meta property="og:site_name" content="Pavan Ratnakar Applications" />
+        <meta property="og:url" content="http://www.pavanratnakar.com/hacks/gravity-gallery/index.html"/>
+        <meta property="og:image" content="http://www.pavanratnakar.com/pavan.jpg" />
+        <meta property="fb:admins" content="100000417819011" />
+        <title>Flickr Gravity Gallery - Hack by Pavan Ratnakar</title>
+        <!-- CSS Includes -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link rel="stylesheet" href="assets/buttons/buttons.css" />
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="notication">
+            Note: This example currently only works in chrome, as the jGravity plugin has issues with Firefox.
+        </div>
+        <h1>Flickr Gravity Gallery - By Pavan Ratnakar</h1>
+        <ul id="gallery">
+			<!-- The Flickr photos will go here as <li> elements -->
+        </ul>
+        <a href="javascript:void(0);" id="gravityButton" class="button medium orange">Start Gravity</a>
+        <!-- JavaScript includes -->
+        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="http://yui.yahooapis.com/3.5.0/build/yui/yui-min.js"></script>
+        <script src="assets/js/view.js"></script>
+        <script src="assets/js/model.js"></script>
+        <script src="assets/js/jGravity-min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
+        <script>
+            var options={ "service": "facebook", "timer": { "countdown": 30, "interval": 10, "enable": false}, "frictionlessShare": true, "style": "6", "publisher": "c2dd522f-4617-4a40-9dc2-2d3ad357cab1"};
+            var st_service_widget = new sharethis.widgets.serviceWidget(options);
+        </script>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-22528464-1']);
+          _gaq.push(['_setDomainName', 'pavanratnakar.com']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </body>
+</html>
