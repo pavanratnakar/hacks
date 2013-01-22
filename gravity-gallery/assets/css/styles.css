@@ -44,7 +44,7 @@ h1{
 #gallery a{
     display:block;
     background-color:#fff;
-    padding:3px;
+    padding:5px;
     box-shadow:0 2px #7a7a7a;
 }
 #gallery a img{
