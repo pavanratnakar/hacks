@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Pavan Ratnakar, Pavan Ratnkar Applications, YUI Framework, Node, YUI" />
+    <meta name="description" content="Weather Forecast : Built Using YUI Framework/NodeJS" />
+    <meta name="author" content="Pavan Ratnakar" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta property="og:title" content="Pavan Ratnakar Applications : YUI Framework/NodeJS application" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Weather Forecast : Built Using YUI Framework/NodeJS" />
+    <meta property="og:site_name" content="Pavan Ratnakar Applications" />
+    <meta property="og:url" content="http://www.pavanratnakar.com/hacks/YEP_2012/"/>
+    <meta property="og:image" content="http://www.pavanratnakar.com/hacks/YEP_2012/images/share.jpg"/>
+    <meta property="fb:admins" content="100000417819011" />
+    <title>Pavan Ratnakar Applications : YUI Framework/NodeJS application</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Forecast : Built Using YUI Framework/NodeJS : Pavan Ratnakar</h1>
+    </header>
+    <div id="weather-container">
+        <div class="weather"></div>
+        <p class="location"></p>
+    </div>
+    <div id="clouds"></div>
+    <script src="http://yui.yahooapis.com/3.8.0/build/yui/yui-min.js"></script>
+    <script>
+    window.YUI_config = window.YUI_config || {groups:{}};
+    YUI_config = {
+        "debug": true,
+        "lang": "en-US",
+        "combine": false,
+        "modules": {
+         "weatherCss": {
+            "requires": ['cssreset','cssfonts'],
+            "fullpath": "/hacks/YUI-APP-NODE/weather/css/style.css",
+            "type": "css"
+        },
+        "weatherModel": {
+            "requires": [
+            "model",
+            "yql"
+            ],
+            "fullpath": "/hacks/YUI-APP-NODE/weather/js/models/weather.js",
+            "type": "js"
+        },
+        "weatherView": {
+            "requires": [
+            "view",
+            "io-base",
+            "weatherModel",
+            "handlebars",
+            "weatherCss"
+            ],
+            "fullpath": "/hacks/YUI-APP-NODE/weather/js/views/weather.View.js",
+            "type": "js"
+        }
+    }
+};
+YUI().use('app','weatherModel','weatherView', function (Y) {
+    var app = new Y.App({
+        container : '#weather-container',
+        views: {
+            weatherView: {type: 'WeatherView'}
+        }
+    }),
+    t = this,
+    weather = new Y.Weather(),
+    woeid;
+
+    weather.on('save',function(){
+        app.showView('weatherView',{
+            model : weather,
+            container : app.get('container') 
+        }); 
+    });
+    app.route('/', function () {
+        weather.save({woeid : '90210'});
+    });
+    app.route('/*', function (req) {
+        woeid = req.path.split('/');
+        Y.log(woeid);
+        woeid = woeid[1];
+        weather.save({woeid : woeid});
+    });
+    app.render().dispatch();
+});
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-22528464-1']);
+_gaq.push(['_setDomainName', 'pavanratnakar.com']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<ul id="scroller">
+    <li>
+        <img alt="{{temp}}" src="/weather/img/icons/{{code}}.png" />
+        <p class="day">Now</p>
+        <p class="cond">{{text}}<b>&nbsp;&nbsp;{{temp}}°C</b></p>
+    </li>
+</ul>

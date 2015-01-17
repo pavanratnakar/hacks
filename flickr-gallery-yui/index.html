@@ -1,0 +1,113 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Pavan Ratnakar, Pavan Ratnkar Applications, Flickr Gallery, Flickr, YUI, PURE" />
+        <meta name="description" content="Flickr Dynamic Layout Gallery Using YUI and Pure" />
+        <meta name="author" content="Pavan Ratnakar" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta property="og:title" content="Flickr Dynamic Layout Gallery Using YUI and Pure - by Pavan Ratnakar" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Flickr Dynamic Layout Gallery Using YUI and Pure" />
+        <meta property="og:image" content="http://www.pavanratnakar.com/pavan.jpg" />
+        <meta property="og:site_name" content="Pavan Ratnakar Applications" />
+        <meta property="og:url" content="http://www.pavanratnakar.com/hacks/flickr-gallery-yui/"/>
+         <meta property="fb:admins" content="100000417819011" />
+        <title>Flickr Dynamic Layout Gallery Using YUI and Pure - by Pavan Ratnakar</title>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.1.0/pure-min.css" />
+        <link href="assets/css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="pure-g-r">
+                <div class="pure-u-1">
+                    <div class="header">
+                        <h2>Flickr Dynamic Layout Gallery Using YUI and Pure</h2>
+                        <h3>Pavan Ratnakar</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="loading"></div>
+            <div class="content pure-u-1">
+                <div id="gallery" class="pure-g-r"></div>
+            </div>
+        </div>
+        <script type="text/x-template" id="bbp-gallery-template">
+            <div id="photo-box-{id}" class="pure-u-{type} photo-box">
+                <a href="{href}" target="_blank">
+                    <img src="{src}" alt="{alt}">
+                </a>
+                <aside class="photo-box-caption">
+                    {desc}
+                </aside>
+            </div>
+        </script>
+        <!-- JavaScript Includes -->
+        <script type="text/javascript" src="http://yui.yahooapis.com/3.8.1/build/yui/yui-min.js"></script>
+        <script type="text/javascript" src="assets/js/model.js"></script>
+        <script type="text/javascript" src="assets/js/model-list.js"></script>
+        <script type="text/javascript" src="assets/js/view.js"></script>
+        <script type="text/javascript">
+            var getRandomInt = function(min,max) {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            }
+            var generateRandomSumArray = function(min,max,sum,temp,arr) {
+                temp = temp || 0;
+                arr = arr || [];
+                if (temp < sum) {
+                    var number = getRandomInt(min,max);
+                    if (number + temp < sum) {
+                        temp = temp + number;
+                        arr.push(number);
+                        return generateRandomSumArray(min,max,sum,temp,arr);
+                    } else {
+                        arr.push(sum-temp);
+                        return arr;
+                    }
+                }
+            }
+            YUI().use('node','bpp-gallery-view','bpp-gallery-model-list','jsonp',function (Y) {
+                var q = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key={apiKey}&privacy_filter={privacyFilter}&safe_search={safe_search}&text={text}&per_page={perPage}&accuracy={accuracy}&sort={sort}&format=json',
+                    query = Y.Lang.sub(q,{
+                        'apiKey' : 'febe9ecc58779b03d17ec7c0828eca68',
+                        'text' : 'earth',
+                        'privacyFilter' : 1,
+                        'safe_search' : 1,
+                        'perPage' : 50,
+                        'accuracy' : 10,
+                        'sort' : 'interestingness-desc'
+                    }),
+                    modelList = new Y.bpp.Gallery.Model.List();
+                Y.jsonp(encodeURI(query)+'&jsoncallback={callback}',function(res){
+                    Y.each(res.photos.photo,function(p,i){
+                        modelList.add({
+                            'thumb':'http://farm'+ p.farm +'.staticflickr.com/'+ p.server +'/'+ p.id +'_'+ p.secret +'.jpg',
+                            'href' : 'http://farm'+ p.farm +'.staticflickr.com/'+ p.server +'/'+ p.id +'_'+ p.secret +'.jpg',
+                            'title' : p.title,
+                            'id' : p.id
+                        });
+                    });
+                });
+                var view = new Y.bpp.Gallery.View({
+                    'container' : '#gallery',
+                    'list' : modelList
+                }).render();
+            });
+        </script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-22528464-1']);
+        _gaq.push(['_setDomainName', 'pavanratnakar.com']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        </script>
+    </body>
+</html>

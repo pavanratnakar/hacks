@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" class="intl-us onebox-main no-js"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:og="http://ogp.me/ns#"
+    xmlns:fb="https://www.facebook.com/2008/fbml"
+    itemscope itemtype="http://schema.org/">
+    <head>
+        <!-- REGULAR META PROPERTIES -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="Pavan Ratnakar" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow" />
+        <!-- END OF REGULAR META PROPERTIES -->
+        <title>Simple WalkThrough Demo using YUI - By Pavan Ratnakar</title>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.1.0/pure-min.css">
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.1/build/cssreset/cssreset-min.css">
+        <link rel="stylesheet" type="text/css" href="css/button.css">
+        <link rel="stylesheet" type="text/css" href="css/demo.css">
+    </head>
+    <body class="yui3-skin-sam">
+        <h1>Simple WalkThrough Demo using YUI - By Pavan Ratnakar</h1>
+        <div id="demo">
+            <div id="feature-1">Feature 1</div>
+            <div id="feature-2">Feature 2</div>
+            <div id="feature-3">Feature 3</div>
+            <div id="feature-4">Feature 4</div>
+            <div id="feature-5">Feature 5</div>
+        </div>
+        <script src="http://yui.yahooapis.com/3.8.1/build/yui/yui-min.js"></script>
+        <script src="js/walkthrough-model.js"></script>
+        <script src="js/walkthrough-model-list.js"></script>
+        <script src="js/walkthrough-view.js"></script>
+        <script type="text/javascript">
+        YUI().use('pavan-walkthrough-view',function(Y){
+            var w = new Y.Pavan.WalkThrough.View({
+                container : "#demo",
+                features : [
+                    {
+                        container : '#feature-1',
+                        title : 'Feature 1 Title',
+                        description : 'This is new feature.'
+                    },
+                    {
+                        container : '#feature-2',
+                        title : 'Feature 2 Title',
+                        description : 'This is new feature 2.'   
+                    },
+                    {
+                        container : '#feature-3',
+                        title : 'Feature 3 Title',
+                        description : 'This is new feature 3.'   
+                    },
+                    {
+                        container : '#feature-4',
+                        title : 'Feature 4 Title',
+                        description : 'This is new feature 4.'   
+                    },
+                    {
+                        container : '#feature-5',
+                        title : 'Feature 5 Title',
+                        description : 'This is new feature 5.'   
+                    }
+                ]
+            });
+            w.render();
+        });
+        </script>
+    </body>
+</html>

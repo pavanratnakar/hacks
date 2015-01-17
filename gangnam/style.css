@@ -1,0 +1,67 @@
+html,body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: none repeat scroll 0 0 #222222;
+}
+body {
+    color: #666666;
+    font-family: "Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}
+h1 {
+    text-align:center;
+    color: #DDDDDD;
+    font-size: 2.2em;
+    font-weight: normal;
+    padding: 20px 0;
+    text-shadow: 0 0 2px #FFFFFF;
+}
+a {
+    color:#fff;
+}
+#container{
+    text-align:center;
+}
+#wrapper{
+    width:100%;
+    height:100%;
+}
+.gangnam {width: 675px; height: 400px;
+  background-image: url(gangnam.png);
+  -webkit-animation: gangnam 4s steps(23,start) infinite,
+    movearound 12s steps(69,end) infinite 44ms;
+  animation: gangnam 4s steps(23,start) infinite,
+    movearound 12s steps(69,end) infinite alternate 44ms;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+@-webkit-keyframes gangnam {
+  0% {background-position: 0 0}
+  100% {background-position: -5175px 0}
+}
+@keyframes gangnam {
+  0% {background-position: 0 0}
+  100% {background-position: -5175px 0}
+}
+@-webkit-keyframes movearound {
+  0% {-webkit-transform: translatex(0)}
+  100% {-webkit-transform: translatex(600px);}
+}
+
+@keyframes movearound {
+  0% {transform: translatex(0)}
+  100% {transform: translatex(600px);}
+}
+.fb-comments{
+    margin:20px 0 0 0;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+    padding: 20px 10px 10px 10px;
+    text-align:center;
+    width:100%;
+    -moz-box-shadow: 1px 1px 4px #000000;
+    -webkit-box-shadow:1px 1px 4px #000000;
+    box-shadow:1px 1px 4px #000000;
+}

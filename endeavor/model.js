@@ -2,10 +2,10 @@ YUI.add('pavan-flickr-model', function(Y){
 
     var defaults = {
         query : {
-            bbox : 'http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key={apiKey}&privacy_filter={privacyFilter}&safe_search={safe_search}&has_geo={hasGeo}&bbox={bbox}&per_page={perPage}&accuracy={accuracy}&sort={sort}&radius={radius}&radius_units={radiusUnits}&format=json',
-            latlon : 'http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key={apiKey}&privacy_filter={privacyFilter}&safe_search={safe_search}&has_geo={hasGeo}&lat={lat}&lon={lon}&per_page={perPage}&accuracy={accuracy}&sort={sort}&radius={radius}&radius_units={radiusUnits}&format=json',
-            photoInfo : 'http://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key={apiKey}&photo_id={photoId}&format=json',
-            text : 'http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key={apiKey}&privacy_filter={privacyFilter}&safe_search={safe_search}&text={text}&per_page={perPage}&accuracy={accuracy}&sort={sort}&format=json'
+            bbox : 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key={apiKey}&privacy_filter={privacyFilter}&safe_search={safe_search}&has_geo={hasGeo}&bbox={bbox}&per_page={perPage}&accuracy={accuracy}&sort={sort}&radius={radius}&radius_units={radiusUnits}&format=json',
+            latlon : 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key={apiKey}&privacy_filter={privacyFilter}&safe_search={safe_search}&has_geo={hasGeo}&lat={lat}&lon={lon}&per_page={perPage}&accuracy={accuracy}&sort={sort}&radius={radius}&radius_units={radiusUnits}&format=json',
+            photoInfo : 'https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key={apiKey}&photo_id={photoId}&format=json',
+            text : 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key={apiKey}&privacy_filter={privacyFilter}&safe_search={safe_search}&text={text}&per_page={perPage}&accuracy={accuracy}&sort={sort}&format=json'
         }
     };
 

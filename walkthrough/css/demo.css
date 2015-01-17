@@ -1,0 +1,184 @@
+/************************************************************************
+    Global Properties
+************************************************************************/
+
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: none repeat scroll 0 0 #222222;
+}
+
+body{
+    font:               13px/1.231 Arial, Helvetica, sans-serif;
+    color:              #FFF;
+    height:             100%;
+    margin:             0;
+    padding:            0;
+}
+
+a {
+    text-decoration:    none;
+    color:              #005790;
+}
+
+a:hover,
+a:focus {
+    text-decoration:    underline;
+    outline:            none;
+}
+
+h1 {
+    text-align:center;
+    color: #DDDDDD;
+    font-size: 2.2em;
+    font-weight: normal;
+    padding: 20px 0;
+    text-shadow: 0 0 2px #FFFFFF;
+}
+
+.close{
+    cursor:             pointer;
+}
+
+.f-left{
+    float:              left;
+    display:            inline;
+}
+
+.f-right{
+    float:              right;
+    display:            inline;
+}
+
+/************************************************************************
+    End of Global Properties
+************************************************************************/
+
+/************************************************************************
+    Clear Fix
+************************************************************************/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+             
+.clearfix {
+    display: inline-block;
+}
+             
+html[xmlns] .clearfix {
+    display: block;
+}
+             
+* html .clearfix {
+    height: 1%;
+}
+
+/************************************************************************
+    End of Clear Fix
+************************************************************************/
+
+/************************************************************************
+    Overlay Properties
+************************************************************************/
+
+.yui3-overlay-content {
+    background-color: #ECEFFB;  
+    border: 1px solid #9EA8C6;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.yui3-overlay-content .yui3-widget-hd {
+    background-color: #B6BFDA;  
+    color: #30418C;
+    font-size: 120%;
+    font-weight: bold;
+    padding: 0.2em 0.5em 0.3em;
+    border-radius: 2px 2px 0 0;
+}
+
+.yui3-overlay-content .yui3-widget-bd {
+    padding: 0.4em 0.6em 0.5em;
+}
+
+.yui3-overlay-content .yui3-widget-ft {
+    background-color:#DFE3F5;
+    padding: 0.4em 0.6em 0.5em;
+    border-radius: 0 0 2px 2px;
+}
+
+.yui3-overlay-content .description{
+    margin:10px 0;
+    color:#000;
+}
+
+.yui3-overlay-content .close{
+    position:absolute;
+    top:3px;
+    right:3px;
+}
+
+.yui3-overlay-content button{
+    padding:5px;
+    margin-right:5px;
+}
+/************************************************************************
+    End of Overlay Properties
+************************************************************************/
+
+.pure-button-green {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(76, 201, 71); /* this is a green */
+}
+
+.pure-button-orange {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: orange;
+}
+
+/************************************************************************
+    Featured Divs
+************************************************************************/
+#feature-1 {
+    position:absolute;
+    top:100px;
+    left:10px;
+}
+
+#feature-2 {
+    position:absolute;
+    top:460px;
+    left:130px;
+}
+
+#feature-3 {
+    position:absolute;
+    top:190px;
+    left:150px;
+}
+
+#feature-4 {
+    position:absolute;
+    top:140px;
+    left:450px;
+}
+
+#feature-5 {
+    position:absolute;
+    top:390px;
+    left:610px;
+}
+/************************************************************************
+    End of Featured Divs
+************************************************************************/

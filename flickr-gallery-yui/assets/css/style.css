@@ -1,0 +1,108 @@
+body {
+    font: 13px/1.231 "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #DDDDDD;
+    background-color: #070707;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h2{
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0.83em 0 0.1em;
+}
+
+.header h3{
+    margin: 0.3em 0 0.83em;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+
+#loading{
+    display:none;
+    width:40px;
+    height:40px;
+    background:url(../img/preloader.gif) no-repeat center center;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin:-20px 0 0 -20px;
+    z-index:999;
+}
+
+#loading.show{
+    display:block;
+}
+
+.photo-box{
+    overflow: hidden;
+    position: relative;
+    opacity:0;
+
+    -webkit-transform:scale(0.8);
+    -moz-transform:scale(0.8);
+    transform:scale(0.8);
+    -webkit-transition:0.4s;
+    -moz-transition:0.4s;
+    transition:0.4s;
+}
+
+.photo-box.show{
+    opacity:1;
+
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    transform:scale(1);
+}
+
+.photo-box,
+.photo-box img {
+    height: 200px;
+}
+
+.photo-box img {
+    width: 100%;
+}
+
+.photo-box aside {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.8em 0;
+    color: white;
+    width: 100%;
+    font-size: 70%;
+    text-align: center;
+    background: -moz-linear-gradient(top,  rgba(16,27,30,0) 0%, rgba(12,2,2,1) 90%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(16,27,30,0)), color-stop(90%,rgba(12,2,2,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(16,27,30,0) 0%,rgba(12,2,2,1) 90%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(16,27,30,0) 0%,rgba(12,2,2,1) 90%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(16,27,30,0) 0%,rgba(12,2,2,1) 90%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(16,27,30,0) 0%,rgba(12,2,2,1) 90%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00101b1e', endColorstr='#0c0202',GradientType=0 ); /* IE6-9 */
+}
+
+.photo-box aside span {
+    color: #aaa;
+}
+
+.photo-box aside span a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .photo-box, .text-box {
+        text-align: center;
+    }
+
+    .photo-box img {
+        width: 100%;
+    }
+}

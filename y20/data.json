@@ -1,0 +1,84 @@
+{
+    "timeline":
+    {
+        "headline":"Yahoo is 20",
+        "type":"default",
+        "startDate":"1994,1",
+        "text":"<i><a href=\"http://www.pavanratnakar.com\" target=\"_blank\">Pavan Ratnakar</a></i>",
+        "asset":
+        {
+            "media":"",
+            "credit":"",
+            "caption":""
+        },
+        "date": [
+            {
+                "startDate":"1994,1",
+                "headline":"Jerry's Guide to the World Wide Web",
+                "text":"Jerry Yang and David Filo create \"Jerry's Guide to the World Wide Web\" while studying at Stanford University.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1994,1",
+                "headline":"Yahoo!",
+                "text":"Jerry's Guide to the World Wide Web\" is renamed \"Yahoo!.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1995,3",
+                "headline":"Yahoo! is incorporated.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1995,8",
+                "headline":"Launch of the Yahoo! commercial website",
+                "text":"Launch of the Yahoo! commercial website that includes advertisements and news feeds from Reuters. Tim Koogle is also named CEO of Yahoo!",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1996,4,12",
+                "headline":"Yahoo! has Initial public offering",
+                "text":"Yahoo! has Initial public offering, closing at US$33.00—up 270 percent from the IPO price—after peaking at US$43.00 for the day.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1996,9",
+                "headline":"Yahoo! UK is launched.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            }
+
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+/* FIX FIREFOX EXTRA PADDING FOR BUTTON */
+input[type="button"]::-moz-focus-inner, 
+button::-moz-focus-inner {
+    border:             0;
+    padding:            0;
+}
+/************************************************************************
+    Button Container
+************************************************************************/
+button,
+input[type="button"],
+input[type="submit"]
+.button-container{
+    overflow:           visible; /* ADDED FOR IE7 padding issue */
+}
+
+button .hide-text{
+    line-height:        999px; /* Set it higher than your image height */
+    overflow:           hidden; /* Hide the text */
+    font-size:          0;
+}
+
+button.noborder,
+input[type=button].noborder{
+    border:                 none;
+    background:             none;
+    text-decoration:        none;
+    color:                  #005790;
+    cursor:                 pointer;
+}
+
+input[type=button].noborder:hover,
+button.noborder:hover{
+    text-decoration:        underline;
+}
+
+button.noborder:active,
+button.noborder:focus,
+input[type=button].noborder:active,
+input[type=button].noborder:focus{
+    text-decoration:        underline;
+}
+
+button.disabled,
+button:disabled,
+input[type=button]:disabled,
+input[type=button].disabled {
+    color:                  rgba(0,0,0,0.4);
+    text-shadow:            1px 1px 0px rgba(255,255,255,0.5);
+    background:             rgba(220,220,220,1);
+    cursor:                 default;
+    text-decoration:        none !important;
+}
+
+/************************************************************************
+    End of Button Container
+************************************************************************/

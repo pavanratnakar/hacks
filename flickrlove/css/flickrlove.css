@@ -1,0 +1,33 @@
+.flickr-login #flickr-login {
+	display:			none;
+}
+
+.facebook-login-required {
+	display:			none;
+}
+
+.flickr-login .facebook-login-required{
+	display:			inline-block;
+}
+
+.image-container{
+	position:  relative;
+}
+.image-container-footer{
+	background-color:   #000000;
+	color:				#FFF;
+    position:           absolute;
+    bottom:             0px;
+    left:               0px;
+    cursor:				default;
+    opacity:            0.8;
+    filter: 			alpha(opacity=80);
+    padding:			2px 6px;
+}
+.image-container-footer p{
+	margin:			    0;
+}
+.content-container{
+	margin-top:			10px;
+	width:				200px;
+}
