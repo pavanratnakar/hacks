@@ -1,7 +1,7 @@
 {
     "timeline":
     {
-        "headline":"Yahoo is 20",
+        "headline":"Yahoo is Twenty",
         "type":"default",
         "startDate":"1994,1",
         "text":"<i><a href=\"http://www.pavanratnakar.com\" target=\"_blank\">Pavan Ratnakar</a></i>",
@@ -18,7 +18,7 @@
                 "text":"Jerry Yang and David Filo create \"Jerry's Guide to the World Wide Web\" while studying at Stanford University.",
                 "asset":
                 {
-                    "media":"",
+                    "media":"https://farm3.staticflickr.com/2647/3770325742_543e9d31d2.jpg",
                     "credit":"",
                     "caption":""
                 }
@@ -29,7 +29,7 @@
                 "text":"Jerry's Guide to the World Wide Web\" is renamed \"Yahoo!.",
                 "asset":
                 {
-                    "media":"",
+                    "media":"https://farm3.staticflickr.com/2422/3770359166_87a203773f.jpg",
                     "credit":"",
                     "caption":""
                 }
@@ -40,7 +40,7 @@
                 "text":"",
                 "asset":
                 {
-                    "media":"",
+                    "media":"https://farm3.staticflickr.com/2638/3698883789_1861a31571.jpg",
                     "credit":"",
                     "caption":""
                 }
@@ -77,8 +77,238 @@
                     "credit":"",
                     "caption":""
                 }
+            },
+            {
+                "startDate":"1997,10,8",
+                "headline":"Yahoo! acquires Four11",
+                "text":"Yahoo! acquires Four11 for about US$94 million in stock.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1998,6",
+                "headline":"Four11's Rocketmail is incorporated into Yahoo! Mail.",
+                "text":"Together with the ymail.com domain name, Four11's Rocketmail is incorporated into Yahoo! Mail.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1998,6,8",
+                "headline":"Yahoo! acquires Viaweb",
+                "text":"Yahoo! acquires Viaweb, co-founded by Paul Graham, for US$49 million and transforms it into Yahoo! Store.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1998,10,12",
+                "headline":"Yahoo! acquires Yoyodyne Entertainment, Inc.",
+                "text":"Yahoo! acquires direct marketing company Yoyodyne Entertainment, Inc.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1999,01,28",
+                "headline":"Yahoo! acquires Geocities",
+                "text":"Yahoo! acquires Geocities for US$4.58 billion in stock.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"1999,04,01",
+                "headline":"Yahoo! acquires Broadcast.com",
+                "text":"Yahoo! acquires Broadcast.com for US$5.7 billion in shares.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2000,01,03",
+                "headline":"Yahoo stocks close at an all-time high of $475.00",
+                "text":"Yahoo stocks close at an all-time high of $475.00 (pre-split price) a share. The day before, it hit an intra-day high of $500.13 (pre-split price).",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2000,01,19",
+                "headline":"Yahoo Japan stocks on roll",
+                "text":"At the height of the Dot-com tech bubble, shares in Yahoo Japan became the first stocks in Japanese history to trade at over ¥100,000,000, reaching a price of 101.4 million yen ($962,140 at that time).",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2000,02,07",
+                "headline":"DDoS",
+                "text":"Yahoo.com was brought to a halt for a few hours as it was the victim of a distributed denial of service attack (DDoS).[13][14] On the next day, its shares rose by about $16, or 4.5 percent, as the failure was blamed on hackers rather than on an internal glitch, as was the case with an eBay incident earlier that year.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2000,05,22",
+                "headline":"LICRA v. Yahoo!",
+                "text":"In LICRA v. Yahoo!, a French judge ordered Yahoo to ban Nazi-related sites from its search engine, and to stop to act as an intermediary on bids for objects with racist overtones. Yahoo denied the French court's jurisdiction over a United States based company, and the tribunal's requests were finally abandoned in 2003. Yahoo eventually quit voluntarily trading on Nazi and Ku Klux Klan bibelots.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2000,06,28",
+                "headline":"Yahoo acquires eGroups",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2001,03,07",
+                "headline":"Yahoo acquires eGroups",
+                "text":"Yahoo CEO Tim Koogle announces he will step down and remain only a company board member.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2001,09,26",
+                "headline":"Yahoo acquires eGroups",
+                "text":"Yahoo stocks close at an all-time low of $8.11. The day before, it hit an intra-day low of $8.02 (both figures are pre-split prices).",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2001,18,26",
+                "headline":"Yahoo acquires eGroups",
+                "text":"Hacker Adrian Lamo is convicted of compromising security at Yahoo!",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2001,10",
+                "headline":"Yahoo acquires Sold.com",
+                "text":"Yahoo! acquires Australian online auction site Sold.com from Fairfax Media and the latter gains AU$18.3 million.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2001,12,27",
+                "headline":"Yahoo bids for HotJobs",
+                "text":"Yahoo bids $436 million for the job search engine HotJobs, defeating rival TMP Worldwide (Monster.com).",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2002,02,13",
+                "headline":"Yahoo acquires HotJobs",
+                "text":"Yahoo! completes its acquisition of HotJobs.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2002,06,03",
+                "headline":"SBC Communications and Yahoo!",
+                "text":"SBC Communications and Yahoo! launch national co-branded dial service.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2002,12",
+                "headline":"Yahoo acquires Inktomi",
+                "text":"Yahoo! starts acquisition of web search engine company Inktomi.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2003,06",
+                "headline":"BT Openworld announces an alliance with Yahoo!",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2003,07",
+                "headline":"Yahoo! acquires Overture Services, Inc.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
             }
-
         ]
     }
 }
