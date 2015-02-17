@@ -126,69 +126,20 @@ $(function () {
     };
 
     // RENDER FILTERED RESULTS
-    function renderFilterResults (filters, products) {
-        // This array contains all the possible filter criteria.
-        var criteria = ['category'],
-            results = [],
-            isFiltered = false;
+        function renderFilterResults (filters, products) {
+        var results = [];
 
         // Uncheck all the checkboxes.
         // We will be checking them again one by one.
         checkboxes.prop('checked', false);
-
-        criteria.forEach(function (c) {
-
-            // Check if each of the possible filter criteria is actually in the filters object.
-            if (filters[c] && filters[c].length) {
-
-                // After we've filtered the products once, we want to keep filtering them.
-                // That's why we make the object we search in (products) to equal the one with the results.
-                // Then the results array is cleared, so it can be filled with the newly filtered data.
-                if (isFiltered) {
-                    products = results;
-                    results = [];
+        $.each(filters, function(key, filter) {
+            products.forEach(function (product) {
+                if (product[key] && filter.indexOf(product[key]) !== -1) {
+                    $('input[name=' + key + '][value=' + product[key] + ']').prop('checked', true);
+                    results.push(product);
                 }
-
-                // In these nested 'for loops' we will iterate over the filters and the products
-                // and check if they contain the same values (the ones we are filtering by).
-
-                // Iterate over the entries inside filters.criteria (remember each criteria contains an array).
-                filters[c].forEach(function (filter) {
-
-                    // Iterate over the products.
-                    products.forEach(function (item){
-
-                        // If the product has the same specification value as the one in the filter
-                        // push it inside the results array and mark the isFiltered flag true.
-
-                        if (typeof item[c] == 'number') {
-                            if(item[c] == filter){
-                                results.push(item);
-                                isFiltered = true;
-                            }
-                        }
-
-                        if (typeof item[c] == 'string') {
-                            if(item[c].toLowerCase().indexOf(filter) != -1){
-                                results.push(item);
-                                isFiltered = true;
-                            }
-                        }
-
-                    });
-
-                    // Here we can make the checkboxes representing the filters true,
-                    // keeping the app up to date.
-                    if (c && filter) {
-                        $('input[name='+c+'][value='+filter+']').prop('checked',true);
-                    }
-                });
-            }
-
+            });
         });
-
-        // Call the renderProductsPage.
-        // As it's argument give the object with filtered products.
         renderProductsPage(results);
     };
 
