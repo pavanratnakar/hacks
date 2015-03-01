@@ -243,17 +243,16 @@ html[xmlns] .clearfix {
     white-space: nowrap;
     padding:10px 5px 5px 20px;
     position:relative;
-    right:-60px;
+    right:15px;
     z-index:10;
 }
 
 #timeline .slider-item:nth-child(1) p i{
-    font:normal normal 40px 'Dancing Script','Segoe UI',sans-serif;
-    background:#500095;
+    font:normal normal 20px 'Antic Slab','Segoe UI',sans-serif;
     white-space: nowrap;
     padding:5px 20px;
     position:relative;
-    right:-60px;
+    right:18px;
     z-index:10;
 }
 

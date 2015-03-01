@@ -3,17 +3,17 @@
     {
         "headline":"Yahoo is Twenty",
         "type":"default",
-        "startDate":"1994,1",
+        "startDate":"1994,1,1,1,1",
         "text":"<i><a href=\"http://www.pavanratnakar.com\" target=\"_blank\">Pavan Ratnakar</a></i>",
         "asset":
         {
-            "media":"",
+            "media":"https://c1.staticflickr.com/9/8634/16678635075_ece2885fb0.jpg",
             "credit":"",
             "caption":""
         },
         "date": [
             {
-                "startDate":"1994,1",
+                "startDate":"1994,01",
                 "headline":"Jerry's Guide to the World Wide Web",
                 "text":"Jerry Yang and David Filo create \"Jerry's Guide to the World Wide Web\" while studying at Stanford University.",
                 "asset":
@@ -24,7 +24,7 @@
                 }
             },
             {
-                "startDate":"1994,1",
+                "startDate":"1994,01",
                 "headline":"Yahoo!",
                 "text":"Jerry's Guide to the World Wide Web\" is renamed \"Yahoo!.",
                 "asset":
@@ -35,7 +35,7 @@
                 }
             },
             {
-                "startDate":"1995,3",
+                "startDate":"1995,03",
                 "headline":"Yahoo! is incorporated.",
                 "text":"",
                 "asset":
@@ -46,7 +46,7 @@
                 }
             },
             {
-                "startDate":"1995,8",
+                "startDate":"1995,08",
                 "headline":"Launch of the Yahoo! commercial website",
                 "text":"Launch of the Yahoo! commercial website that includes advertisements and news feeds from Reuters. Tim Koogle is also named CEO of Yahoo!",
                 "asset":
@@ -200,19 +200,8 @@
                 }
             },
             {
-                "startDate":"2001,03,07",
-                "headline":"Yahoo acquires eGroups",
-                "text":"Yahoo CEO Tim Koogle announces he will step down and remain only a company board member.",
-                "asset":
-                {
-                    "media":"",
-                    "credit":"",
-                    "caption":""
-                }
-            },
-            {
                 "startDate":"2001,09,26",
-                "headline":"Yahoo acquires eGroups",
+                "headline":"Stock Price Drop",
                 "text":"Yahoo stocks close at an all-time low of $8.11. The day before, it hit an intra-day low of $8.02 (both figures are pre-split prices).",
                 "asset":
                 {
@@ -223,7 +212,7 @@
             },
             {
                 "startDate":"2001,18,26",
-                "headline":"Yahoo acquires eGroups",
+                "headline":"Hacker convicted",
                 "text":"Hacker Adrian Lamo is convicted of compromising security at Yahoo!",
                 "asset":
                 {
@@ -302,6 +291,902 @@
                 "startDate":"2003,07",
                 "headline":"Yahoo! acquires Overture Services, Inc.",
                 "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2004,01,19",
+                "headline":"Yahoo Research Labs.",
+                "text":"Yahoo! announces the formation of Yahoo Research Labs, a research organization for the invention of new technologies and solutions for Yahoo! Yahoo!'s Head and Principal Scientist Dr. Gary William Flake leads the new organization",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2004,02,19",
+                "headline":"Own web crawling algorithm",
+                "text":"Yahoo! drops Google-powered results and launches its own web-crawling algorithm with its own site index.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2004,03",
+                "headline":"Own Search Engine Technology",
+                "text":"Yahoo launches its own search engine technology.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2004,03,01",
+                "headline":"Practice paid inclusion",
+                "text":"Yahoo announces that it will practice paid inclusion for its search service; however, it also announced that it would continue to rely mainly on a free web crawl for most of its search engine content.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2004,03,25",
+                "headline":"Yahoo acquires the European shopping search engine Kelkoo.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2004,07,09",
+                "headline":"Yahoo acquires email provider Oddpost.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2004,12,15",
+                "headline":"Yahoo launches beta version of its video search engine.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,02,09",
+                "headline":"Yahoo! Music",
+                "text":"Yahoo! Launch is changed to Yahoo! Music, a service that provides streaming audio, music videos, Internet radio, exclusive artist features and music news.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,02,15",
+                "headline":"Yahoo! Dublic, Ireland",
+                "text":" Yahoo! establishes its European headquarters in Dublin, Ireland and creates 400 new jobs.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,02,28",
+                "headline":"Yahoo! Developer Network",
+                "text":" Yahoo! launches a developer network that gives an API to most of its search verticals.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,03",
+                "headline":"Yahoo acquires game platform provider Stadeon",
+                "text":" ",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,03,02",
+                "headline":"Yahoo 10 Years",
+                "text":"Yahoo completes ten years of corporate existence and free ice cream coupons are given away at U.S. Baskin-Robbins stores to its users.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,03,20",
+                "headline":"Yahoo! acquires Flickr",
+                "text":"Yahoo! acquires photo sharing service Flickr and its creator Ludicorp.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,03,29",
+                "headline":"Yahoo! 360°",
+                "text":"Yahoo! launch blogging and social networking service Yahoo! 360°.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,04,07",
+                "headline":" Wikimedia Foundation announces Yahoo support.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,05,26",
+                "headline":"Yahoo announces its new PhotoMail service.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,06,14",
+                "headline":"Yahoo acquires VoIP provider DialPad Communications.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,06,15",
+                "headline":"Yahoo announces Yahoo! Research Berkeley.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,06,25",
+                "headline":"Yahoo acquires Konfabulator",
+                "text":"Yahoo acquires widget engine software Konfabulator that is transformed into a free software platform and renamed Yahoo! Widgets.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,08,11",
+                "headline":"Yahoo acquires 40 percent of Alibaba.com",
+                "text":"Yahoo acquires 40 percent of Alibaba.com for US$1 billion, and Alibaba takes over the operation of Yahoo China.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,08,23",
+                "headline":"Verizon and Yahoo launch integrated DSL service.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,10,04",
+                "headline":"Yahoo! purchases online social event calendar Upcoming.org.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,10,17",
+                "headline":"Yahoo buys British location technology company Whereonearth Ltd.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,10,17",
+                "headline":"Tivo and Yahoo!",
+                "text":"Tivo and Yahoo! form a partnership where several Yahoo! features can be viewed on television via the Series2 TiVO set top box.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,12,09",
+                "headline":"Yahoo acquires del.icio.us.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2006,01,09",
+                "headline":" Yahoo acquires WebJay.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+
+            {
+                "startDate":"2006,01",
+                "headline":"Yahoo! launches Yahoo!7",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+
+            {
+                "startDate":"2006,02,12",
+                "headline":"Yahoo! Developer Network PHP Center launched.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2006,05,01",
+                "headline":"Yahoo! launches Yahoo! Tech.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2006,09,27",
+                "headline":"Yahoo! acquires online video editing site Jumpcut.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2006,09,30",
+                "headline":"Yahoo! Open Hack day",
+                "text":"Yahoo! hosts an Open Hack Day (including an external site) that features a musical performance by Beck.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2006,12,13",
+                "headline":"Yahoo! announces Yahoo!Xtra",
+                "text":"Yahoo! announces Yahoo!Xtra, a joint venture in New Zealand between its Australian joint venture Yahoo!7 and Telecom NZ.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+
+            {
+                "startDate":"2007,01,08",
+                "headline":"Yahoo acquires MyBlogLog.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+
+            {
+                "startDate":"2007,02,05",
+                "headline":"Yahoo launches a new search advertising system, Panama.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2007,03,01",
+                "headline":"Localised New Zealand internet portal Yahoo!Xtra launches.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2007,03",
+                "headline":"Yahoo! acquires Taiwan blogging site wretch.cc.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2007,04,30",
+                "headline":"Yahoo! announces acquisition of Right Media.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2007,06,20",
+                "headline":"Yahoo! agrees to acquire Rivals.com.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2007,07,18",
+                "headline":"Yahoo acquires stake in Tyroo",
+                "text":"Yahoo acquires 35 percent stake in Indian online advertising company Tyroo Media Pvt Ltd.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2007,08,27",
+                "headline":"Yahoo! adds SMS",
+                "text":"Yahoo! adds SMS features to email service—users can also check travel details directly from within an email.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2007,09,04",
+                "headline":"Yahoo! acquires BlueLithium",
+                "text":"Yahoo! announces acquisition of BlueLithium, a company founded by industry pioneer Gurbaksh Chahal.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2008,02,01",
+                "headline":"Microsoft makes $44.6 billion bid for Yahoo!",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2008,02,04",
+                "headline":"Yahoo! acquires FoxyTunes.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+
+            {
+                "startDate":"2008,02,04",
+                "headline":"Yahoo! and Rhapsody",
+                "text":"Yahoo! and Rhapsody Announce Strategic Partnership in Digital Music.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2008,02,04",
+                "headline":"Yahoo! acquires Maven Networks, Inc.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2008,02,12",
+                "headline":"Yahoo! and T-Mobile",
+                "text":"Yahoo! and T-Mobile Agree to Enter into Strategic Partnership.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2008,02,17",
+                "headline":"Yahoo! and T-Mobile",
+                "text":"Yahoo! and T-Mobile Agree to Enter into Strategic Partnership.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2009,01,13",
+                "headline":"Carol Bartz joins Yahoo! as new CEO.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2009,12",
+                "headline":"Announced integration with Facebook Connect.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2010,03",
+                "headline":"Yahoo! acquires Citizen Sports",
+                "text":"Yahoo! acquires sports mobile and social gaming startup Citizen Sports. This acquisition provided a valuable mobile property as well as strong engineering and management talent.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2010,07",
+                "headline":"Yahoo! launches mail and messenger applications for Android.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2010,10",
+                "headline":"Yahoo! acquires Dapper.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2011,11",
+                "headline":"Yahoo! acquires Interclick.",
+                "text":"Yahoo! acquires Interclick, a developer of online user behavior identification and targeting technology.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,01",
+                "headline":"Scott Thompson is appointed as CEO",
+                "text":"Scott Thompson is appointed as CEO of Yahoo! following the board's September 2011 dismissal of Bartz.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,03,14",
+                "headline":"Yahoo! sues Facebook over ten patents",
+                "text":"Yahoo! sues Facebook over ten patents and Facebook responds by counter-suing Yahoo!",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,05,21",
+                "headline":"Yahoo! sells stake in Alibaba Group",
+                "text":" Yahoo! sells half of its stake in Alibaba Group for US$7.1 billion in cash and stock.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,07",
+                "headline":"Yahoo! and Facebook settle their patent dispute.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,07,16",
+                "headline":"Marissa Mayer is appointed CEO.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,09,18",
+                "headline":"First stage of the Ali Baba share repurchase.",
+                "text":"Yahoo! announced the completion of the first stage of the Ali Baba share repurchase. The deal is expected to net Yahoo! US$4.3 billion, and Mayer states that the board and management decided to return US$3 billion to shareholders.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,10,15",
+                "headline":"Yahoo! acquires Stamped.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012,10,24",
+                "headline":"Yahoo! acquires OnTheAir.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,01",
+                "headline":"Yahoo! announces it had purchased the social news start-up Snip.it.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,01",
+                "headline":"Yahoo! announces EOL of certain products",
+                "text":"Yahoo! announces that it was making some changes to the products it offers, including shutting down some while updating others. On April 1, the Yahoo! Message Boards site closed. The Yahoo! updates API were no longer supported after April 16.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,03,25",
+                "headline":"Yahoo! acquires Summly.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,05,16",
+                "headline":"Yahoo! partnership with Twitter.",
+                "text":"Yahoo announces that it will begin to include relevant tweets inside their homepage news feed in a partnership with Twitter.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,05,19",
+                "headline":"Yahoo! acquires Tumblr",
+                "text":"The Wall Street Journal reports that Yahoo!'s board approved an all-cash deal to purchase the six-year-old blogging website Tumblr. Yahoo! will pay US$1.1 billion for Tumblr, and the company's CEO and founder David Karp will remain a large shareholder.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,05,20",
+                "headline":"Flickr Revamp",
+                "text":"The revamp of the Yahoo-owned photography service Flickr was launched in Times Square, New York, U.S. in an event that was attended by the city's mayor and a large contingency of journalists. Eleven billboards in Times Square advertised the website's new tagline \"biggr, spectaculr, wherevr.\" as part of the launch and Yahoo stated that it will provide Flickr users with a free terabyte of storage. The official announcement of the Tumblr acquisition was also included in the May 20 event.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,05,26",
+                "headline":"Yahoo! bids for Hulu",
+                "text":"Yahoo! bids between US$600 and $800 million for video streaming site Hulu.[114] As of May 28, 2013, Yahoo!'s videos attract 45 million unique visitors a month, while Hulu has 24 million visitors—the combination of the two audiences can place Yahoo! in the second-most popular position after Google Video.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,05,20",
+                "headline":"Yahoo! blog on Tumblr",
+                "text":"Yahoo! moves the official Yahoo! blog from Yahoo! Yodel to new acquisition Tumblr.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,06,03",
+                "headline":"Yahoo! Acquires Xobni",
+                "text":"Yahoo! Acquires Xobni and appoints its former CEO, Jeff Bonforte, as Senior Vice President of Communications Products.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,06,06",
+                "headline":"Yahoo! Account",
+                "text":"After deactivating inactive user (login) accounts Yahoo! announces it will give them to people on a first-come, first-serve basis.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,06",
+                "headline":"Yahoo traffic increase",
+                "text":"Yahoo traffic tops Google's according to ComScore",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,08,05",
+                "headline":"Yahoo Logo refresh",
+                "text":"Yahoo launches a month-long logo change display.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,08",
+                "headline":"",
+                "text":"Tumblr will display documents related to 56 thousand emails intercepted by the National Security Agency",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013,08",
+                "headline":"Yahoo! Groups introduces NEO (redesign)",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,02,11",
+                "headline":"Yahoo! acquired Wander",
+                "text":"Yahoo! acquired Wander. Wander's team of five joins Yahoo's mobile and emerging products unit in New York City.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,02,13",
+                "headline":"Yahoo! acquired Distill",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,02,27",
+                "headline":"Yahoo! denies any knowledge of the interception",
+                "text":"Yahoo! denies any knowledge of the interception and collection of webcam images by GCHQ, Britain's surveillance agency, who with aid from the US NSA, intercepted Yahoo webcam images of millions of individuals not suspected of wrongdoing.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,07,11",
+                "headline":"Yahoo acquired video streaming platform RayV.",
+                "text":"",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,07,21",
+                "headline":"Yahoo acquires Flury.",
+                "text":"Yahoo announced that it is buying mobile ad company Flurry.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,08",
+                "headline":"Yahoo acquires ClarityRay.",
+                "text":"Yahoo announced that it acquires Ad startup ClarityRay",
                 "asset":
                 {
                     "media":"",
